@@ -1,0 +1,30 @@
+{
+  "name": "lightman_predraft",
+  "version": "1.0.0",
+  "description": "test file for c0",
+  "main": "index.js",
+  "repository": "https://github.students.cs.ubc.ca/CPSC310-2021W-T2/c0_team313.git",
+  "author": "Patric <nightalker@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/chai": "^4.3.0",
+    "@types/chai-as-promised": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^17.0.8",
+    "@ubccpsc310/folder-test": "^2.0.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "fs-extra": "^10.0.0",
+    "jszip": "^3.7.1",
+    "mocha": "^9.1.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register --timeout 10000 test/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13"
+  }
+}
